@@ -10,6 +10,7 @@ of Block World solution is provided in the application. The core of application
 is designed to be generic, Actions, Preconditions, Effects, Plan classes are generic.
 The specific implementation in the Block world is defined in the BWname classes.
 The algorithm implementation is located in the Pop class.
+The project is to consider a prototype to explore and to better understand how planning algorithms work, for educational purposes. This project is the code-part of the fourth assignment of Artificial intelligence Fundamentals course[3] (University of Pisa).
 
 # Requirements
 - OS: MacOS
@@ -36,9 +37,9 @@ cd dist/Debug/GNU-MacOSX
 
 # Planning algorithm
 
-# Project status
-The project is to consider a prototype to explore and to better understand how planning algorithms work, for educational purposes.
-Some bugs need a fix-up.
+
+
+
 
 # Known bugs
 - To fix the threats resolution because is not stable
@@ -58,4 +59,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # References
 
  [1] Stuart Russell and Peter Norvig *Artificial Intelligence: A Modern Approach.* Pearson 2016  
- [2] David Barber *Bayesian Reasoning and Machine Learning.* Cambridge University Press 2012
+ [2] David Barber *Bayesian Reasoning and Machine Learning.* Cambridge University Press 2012   
+  [3] [Artificial Intelligence Fundamentals](https://elearning.di.unipi.it/course/view.php?id=96)
