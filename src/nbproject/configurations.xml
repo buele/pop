@@ -49,6 +49,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>README.md</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -64,6 +65,7 @@
         </ccTool>
         <linkerTool>
           <linkerDynSerch>
+            <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
@@ -112,6 +114,8 @@
       </item>
       <item path="Pop.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="State.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="State.h" ex="false" tool="3" flavor2="0">
@@ -123,6 +127,7 @@
       <folder path="TestFiles">
         <linkerTool>
           <linkerDynSerch>
+            <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
@@ -160,6 +165,7 @@
             <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerDynSerch>
         </linkerTool>
       </compileType>
@@ -203,6 +209,8 @@
       </item>
       <item path="Pop.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="State.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="State.h" ex="false" tool="3" flavor2="0">
@@ -214,6 +222,7 @@
       <folder path="TestFiles">
         <linkerTool>
           <linkerDynSerch>
+            <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
             <pElem>.</pElem>
