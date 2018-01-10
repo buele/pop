@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Action.h</itemPath>
+      <itemPath>BWClearState.h</itemPath>
+      <itemPath>BWOnState.h</itemPath>
+      <itemPath>BWStackAction.h</itemPath>
+      <itemPath>BWTableState.h</itemPath>
+      <itemPath>BWUnstackAction.h</itemPath>
+      <itemPath>BlocksWorldExample.h</itemPath>
+      <itemPath>Edge.h</itemPath>
+      <itemPath>Plan.h</itemPath>
+      <itemPath>Pop.h</itemPath>
+      <itemPath>State.h</itemPath>
+      <itemPath>World.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Action.cpp</itemPath>
+      <itemPath>BWClearState.cpp</itemPath>
+      <itemPath>BWOnState.cpp</itemPath>
+      <itemPath>BWStackAction.cpp</itemPath>
+      <itemPath>BWTableState.cpp</itemPath>
+      <itemPath>BWUnstackAction.cpp</itemPath>
+      <itemPath>BlocksWorldExample.cpp</itemPath>
+      <itemPath>Edge.cpp</itemPath>
+      <itemPath>Plan.cpp</itemPath>
+      <itemPath>Pop.cpp</itemPath>
+      <itemPath>State.cpp</itemPath>
+      <itemPath>World.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </linkerDynSerch>
+        </linkerTool>
+      </compileType>
+      <item path="Action.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Action.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWClearState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWClearState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWOnState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWOnState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWStackAction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWStackAction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWTableState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWTableState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWUnstackAction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWUnstackAction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BlocksWorldExample.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BlocksWorldExample.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Edge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Edge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Plan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Plan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="World.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="World.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles">
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </linkerDynSerch>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </linkerDynSerch>
+        </linkerTool>
+      </compileType>
+      <item path="Action.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Action.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWClearState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWClearState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWOnState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWOnState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWStackAction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWStackAction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWTableState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWTableState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BWUnstackAction.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BWUnstackAction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BlocksWorldExample.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BlocksWorldExample.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Edge.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Edge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Plan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Plan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="State.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="State.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="World.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="World.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles">
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </linkerDynSerch>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
