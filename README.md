@@ -36,6 +36,12 @@ cd dist/Debug/GNU-MacOSX
 
 # Planning algorithm
 
+# Known bugs
+- To fix the threats resolution because is not stable
+- To add the possibility to load a new problem via file
+- To fix some memory leaks
+
+
 # References
 
  [1] Stuart Russell and Peter Norvig *Artificial Intelligence: A Modern Approach.* Pearson 2016  
