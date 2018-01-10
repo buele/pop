@@ -1,4 +1,4 @@
-Partial Order Planning algorithm implementation 
+Partial Order Planning algorithm implementation
 ===========
 
 
@@ -12,9 +12,9 @@ The specific implementation in the Block world is defined in the BWname classes.
 The algorithm implementation is located in the Pop class.
 
 # Requirements
-- OS: MacOS 
-- g++: 4.2.1 
--  make: 3.81 
+- OS: MacOS
+- g++: 4.2.1
+-  make: 3.81
 
 
 # How to build
@@ -38,5 +38,5 @@ cd dist/Debug/GNU-MacOSX
 
 # References
 
-[1] Stuart Russell and Peter Norvig *Artificial Intelligence: A Modern Approach.* Pearson 2016 
-[2] David Barber *Bayesian Reasoning and Machine Learning.* Cambridge University Press 2012
+ [1] Stuart Russell and Peter Norvig *Artificial Intelligence: A Modern Approach.* Pearson 2016  
+ [2] David Barber *Bayesian Reasoning and Machine Learning.* Cambridge University Press 2012
