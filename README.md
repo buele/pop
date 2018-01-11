@@ -38,8 +38,174 @@ cd dist/Debug/GNU-MacOSX
 
 # Planning algorithm
 
+# Output example
+```
+*** Artificial Intelligence Fundamentals - UNIPI 2017/2018 ***
+Partial Order Planning - 4th assignment
 
-
+Example of Block World
+- start computation
+Implement/run Partial order planning algorithms 3
+[POP Algorithm] - ALGORITHM STEP ----
+[POP Algorithm] - get an open precondition
+ON(AB)
+[POP Algorithm] - the action of open precondition is :
+FINISH()
+[POP Algorithm] - Look for an action that solves the precondition
+explore actions
+for action with name: STACK
+explore effects
+COMPARE PRECONDITION : ON(A,B)
+WITH effect: !CLEAR(y)
+COMPARE PRECONDITION : ON(A,B)
+WITH effect: !TABLE(x)
+COMPARE PRECONDITION : ON(A,B)
+WITH effect: ON(x,y)
+ON(A,B)
+the action: STACK(A,B)  solves the open precondition ON(A,B)
+PRECONDITION WITH SAME PARAMETERS CASE
+Mapping
+map[x] :A
+map[y] :B
+[POP Algorithm] - Found an action
+STACK(A,B)
+STACK(A,B)
+[POP Algorithm] - Update edges
+get the link: START --> FINISH
+if FINISH() is equal to FINISH()
+[POP Algorithm] - found an edge with the action of open precondition
+START() --> FINISH()
+!! change destination for this edge:
+START() --> STACK(A,B)
+[POP Algorithm] - Create new edge, locating the new action between the old one
+STACK(A,B) --> FINISH()
+[POP Algorithm] - Resolve Threats
+---STEP PLAN----
+PRINT PLAN:
+START() -> STACK(A,B) -> FINISH()
+START() -> FINISH()
+FINISH()
+-----------------
+---STEP LINKS----
+START() --> STACK(A,B)
+START() --> FINISH()
+STACK(A,B) --> FINISH()
+-----------------
+--- STEP OPEN PRECONDITIONS----
+ON(BC)(FINISH()) CLEAR(A)(STACK(A,B))
+-----------------
+[POP Algorithm] - ALGORITHM STEP ----
+[POP Algorithm] - get an open precondition
+ON(BC)
+[POP Algorithm] - the action of open precondition is :
+FINISH()
+[POP Algorithm] - Look for an action that solves the precondition
+explore actions
+for action with name: STACK
+explore effects
+COMPARE PRECONDITION : ON(B,C)
+WITH effect: !CLEAR(y)
+COMPARE PRECONDITION : ON(B,C)
+WITH effect: !TABLE(x)
+COMPARE PRECONDITION : ON(B,C)
+WITH effect: ON(x,y)
+ON(B,C)
+the action: STACK(B,C)  solves the open precondition ON(B,C)
+PRECONDITION WITH SAME PARAMETERS CASE
+Mapping
+map[x] :B
+map[y] :C
+[POP Algorithm] - Found an action
+STACK(B,C)
+STACK(B,C)
+[POP Algorithm] - Update edges
+get the link: START --> STACK
+if STACK(A,B) is equal to FINISH()
+get the link: START --> FINISH
+if FINISH() is equal to FINISH()
+[POP Algorithm] - found an edge with the action of open precondition
+START() --> FINISH()
+!! change destination for this edge:
+START() --> STACK(B,C)
+[POP Algorithm] - Create new edge, locating the new action between the old one
+STACK(B,C) --> FINISH()
+[POP Algorithm] - Resolve Threats
+Implement/run Partial order planning algorithms 5
+---STEP PLAN----
+PRINT PLAN:
+START() -> STACK(A,B) -> FINISH()
+START() -> STACK(B,C) -> FINISH()
+FINISH()
+-----------------
+---STEP LINKS----
+START() --> STACK(A,B)
+START() --> STACK(B,C)
+STACK(A,B) --> FINISH()
+STACK(B,C) --> FINISH()
+-----------------
+--- STEP OPEN PRECONDITIONS----
+CLEAR(A)(STACK(A,B))
+-----------------
+[POP Algorithm] - ALGORITHM STEP ----
+[POP Algorithm] - get an open precondition
+CLEAR(A)
+[POP Algorithm] - the action of open precondition is :
+STACK(A,B)
+[POP Algorithm] - Look for an action that solves the precondition
+explore actions
+for action with name: STACK
+explore effects
+COMPARE PRECONDITION : CLEAR(A)
+WITH effect: !CLEAR(y)
+COMPARE PRECONDITION : CLEAR(A)
+WITH effect: !TABLE(x)
+COMPARE PRECONDITION : CLEAR(A)
+WITH effect: ON(x,y)
+for action with name: UNSTACK
+explore effects
+COMPARE PRECONDITION : CLEAR(A)
+WITH effect: CLEAR(y)
+CLEAR(A)
+the action: UNSTACK(A)  solves the open precondition CLEAR(A)
+print map
+map[x]: C
+map[y]: A
+PRECONDITION WITH DIFFERENT PARAMETERS CASE
+[POP Algorithm] - Found an action
+UNSTACK(C,A)
+UNSTACK(C,A)
+[POP Algorithm] - Update edges
+get the link: START --> STACK
+if STACK(A,B) is equal to STACK(A,B)
+[POP Algorithm] - found an edge with the action of open precondition
+START() --> STACK(A,B)
+!! change destination for this edge:
+START() --> UNSTACK(C,A)
+[POP Algorithm] - Create new edge, locating the new action between the old one
+UNSTACK(C,A) --> STACK(A,B)
+[POP Algorithm] - Resolve Threats
+---STEP PLAN----
+PRINT PLAN:
+START() -> UNSTACK(C,A) -> STACK(A,B) -> FINISH()
+START() -> STACK(B,C) -> FINISH()
+FINISH()
+-----------------
+---STEP LINKS----
+START() --> UNSTACK(C,A)
+START() --> STACK(B,C)
+STACK(A,B) --> FINISH()
+STACK(B,C) --> FINISH()
+UNSTACK(C,A) --> STACK(A,B)
+-----------------
+--- STEP OPEN PRECONDITIONS----
+-----------------
+[POP Algorithm] - Computation Finished
+PRINT PLAN:
+START() -> UNSTACK(C,A) -> STACK(A,B) -> FINISH()
+START() -> STACK(B,C) -> FINISH()
+FINISH()
+[DONE]
+```
 
 
 # Known bugs
