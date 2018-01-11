@@ -32,6 +32,7 @@ cd dist/Debug/GNU-MacOSX
 ./pop
 ```
 # Class diagram
+![Class diagram](https://raw.githubusercontent.com/buele/pop/master/docs/class-diagram.png)
 
 # Sequence diagram
 
