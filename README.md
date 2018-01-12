@@ -34,9 +34,6 @@ cd dist/Debug/GNU-MacOSX
 # Class diagram
 ![Class diagram](https://raw.githubusercontent.com/buele/pop/master/docs/class-diagram.png)
 
-# Sequence diagram
-
-# Planning algorithm
 
 # Output example
 ```
